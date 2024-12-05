@@ -1,0 +1,60 @@
+body{
+    margin-top: 15vh;
+    background-color: #f5f5f5;
+}
+.container{
+    padding-left: 50vh;
+    padding-right: 50vh;
+}
+#h1{
+    text-align: center;
+}
+#p{
+    text-align: center;
+}
+.toogle{
+    position: absolute;
+    top: 10vh;
+    left: 180vh;
+    color: #f5f5f5;
+    font-size: 16px;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+i{
+    margin-left: 5px;
+}
+.div{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5vh;
+    height: 10vh;
+    color: #f5f5f5;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2{
+    font-size: 35px;
+}
+
+ /* ? After Toggle. */
+
+body.change-background{
+    color: #f5f5f5;
+    background-color: #000;
+}
+button.toogle2{
+    background-color: #f5f5f5;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.div2{
+    border: 1px solid black;
+    color: #000;
+    background-color: #f5f5f5;
+}
